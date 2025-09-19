@@ -22,11 +22,9 @@
 
 .USAGE
 
-1. Open PowerShell **as Administrator**.
-2. Run the script below:
+Run the script below:
 #>
 
-```powershell
 $regPath = "HKLM:\SYSTEM\CurrentControlSet\Control\LSA\pku2u"
 $valueName = "AllowOnlineID"
 $valueData = 0
