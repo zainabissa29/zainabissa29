@@ -22,17 +22,16 @@
 
 #>
 
-```powershell
-$regPath = "HKLM:\SYSTEM\CurrentControlSet\Services\Netbt\Parameters"
-$valueName = "NodeType"
-$valueData = 2
+$regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation"
+$valueName = "AllowInsecureGuestAuth"
+$valueData = 0
 
 # Create the registry key if it doesn't exist
 if (-not (Test-Path $regPath)) {
     New-Item -Path $regPath -Force | Out-Null
 }
 
-# Set the NodeType value (REG_DWORD)
+# Set the AllowInsecureGuestAuth value (REG_DWORD)
 New-ItemProperty -Path $regPath -Name $valueName -PropertyType DWord -Value $valueData -Force
 
 Write-Output "Registry value '$valueName' set to $valueData under $regPath"
