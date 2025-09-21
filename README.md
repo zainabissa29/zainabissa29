@@ -6,7 +6,8 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 ## ⚠️ Vulnerability Management Projects
 
 - **[Vulnerability Management Program Implementation](https://github.com/zainabissa29/vulnerability-management-program)**
-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/zainabissa29/programmatic-vulnerability-remediations)**
+- **- **[STIG Implementations (PowerShell)](https://github.com/zainabissa29/stig-implementations)**
+  
 
 ## 🚨 Threat Hunting and Security Operations
 
