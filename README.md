@@ -13,6 +13,8 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/zainabissa29/threat-hunting-scenario-tor-)**
 - **[Threat Hunting Scenario (Scheduled task detection)](https://github.com/zainabissa29/threat-hunting-scenario-scheduled-task-detection)**
+--**[Cybersecurity Awareness & Social Engineering Resilience Program](https://github.com/zainabissa29/vulnerability-management-program)**
+
 
 <hr/>
 
